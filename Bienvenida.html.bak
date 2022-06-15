@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>AXOTL</title>
+		<link rel="stylesheet" href="css/estilo.css">
+		<link rel="icon" href="img/Logo.png" type="image/icon type">
+	</head>
+	<body>
+		<header>
+			<div class="logo_header" align="center">
+				<h1>AXOTL</h1>
+				<img src="img/Logo.png" alt="Logo AXOTL" width="300" height="150"></img>
+				<div class="oferta1"><img src="img/ofertas.png"  width="400" height="250"></img></div>
+			</div>
+			<div class="rectangulo_header" align="center">
+				<div class="botones_header">
+					<a href="Bienvenida.html">Bienvenida</a>
+					<a href="Nosotros.html">Nosotros</a>
+					<a href="Productos.html">Productos</a>
+					<a href="Contactenos.html">Contactenos</a>
+					<a href="Carrito.html"><img src="img/carrito.png" width="30" style="position:relative; left:100px; top:5px;"></img></a>
+				</div>
+			</div>
+		</header>
+			<div id="rectangulo_categoria" align="right">
+				<b><a>Categoria</a></br></br>
+				<a href="Ropa.html">Ropa</a></br></br></br>
+				<a href="Fundas.html">Fundas</a></br></br></br>
+				<a href="Otros.html">Otros</a></b>
+			</div>
+			<div id="rectangulo_cuerpo">
+				<h1 align="center">Bienvenida</h1>
+				<div class="text_Cuerpo">
+					<p>
+						El axolote o ajolote es un animal que ha estado en la vida de los mexicanos desde la época de los aztecas. Según dicha mitología, está relacionado al dios xólotl, hermano de quetzalcóatl, quien se encuentra asociado a la idea del movimiento y de la vida, de acuerdo con la leyenda del quinto sol.</br>
+						</br>El ajolote mexicano es un anfibio que está relacionado con antiguos mitos mexicas. Su nombre en náhuatl (axólotl) quiere decir “xólotl de agua” y se ha traducido como “juguete de agua”, “monstruo acuático”, “gemelo de agua” o “perro de agua”. Actualmente aún habita exclusivamente en el imperio antiguo del valle de méxico. Este “monstruo” es tímido y siempre busca lugares para esconderse.
+					</p>
+				</div>
+			</div>
+	</body>
+</html>

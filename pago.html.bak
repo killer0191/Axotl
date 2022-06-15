@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>Pago en línea</title>
+		<link rel="stylesheet" href="css/estilopagina.css">
+		<link rel="stylesheet" href="css/estilopago.css">
+		<link rel="icon" href="img/Logo.png" type="image/icon type">
+	</head>
+	<body>
+		<header>
+			<div class="logo_header" align="center">
+				<h1>AXOTL</h1>
+				<img src="img/Logo.png" alt="Logo AXOTL" width="300" height="150"></img>
+				
+			</div>
+			<div class="rectangulo_header" align="center">
+				<br><br>
+			</div>
+			
+		</header>
+			<div id="rectangulo_categoria" align="right">
+				<br><center><img src="img/visa.png" width="150" height="90"></img></center><br>
+				<center><img src="img/Mastercard.png" width="150" height="90"></img></center>
+			</div>
+			<div id="rectangulo_cuerpo">
+				<h1 align="center">Pago en línea.</h1>
+				<div class="text_Cuerpo">
+					<p>
+					
+ 					<div class="checkout_form">	
+  						<div class="details">
+        						<div class="section">
+          							<input type="text" placeholder="Número de tarjeta">
+       		 					</div>
+        						<div class="section">
+          							<input type="text" placeholder="Titular de la tarjeta">
+        						</div>
+        						<div class="section last_section">
+          							<div class="item">
+            								<input type="text" placeholder="Fecha de vencimiento">
+          							</div>
+          							<div class="item">
+            								<input type="text" placeholder="CVV">
+          							</div>
+        						</div>
+							<div class="section">
+          							<input type="text" placeholder="Domicilio">
+       		 					</div>
+        						<div class="btn">
+								<input type="button" onclick="alerta()" value="Pagar">
+								<script>
+									function alerta(){
+										alert("Gracias por su compra.");
+									}
+								</script>
+        						</div>
+      						</div>
+    					</div>
+					</p>
+				</div>
+			</div>
+	</body>
+</html>

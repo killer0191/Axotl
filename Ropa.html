@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>AXOTL</title>
+		<link rel="stylesheet" href="css/estilo.css">
+		<link rel="icon" href="img/Logo.png" type="image/icon type">
+	</head>
+	<body>
+		<header>
+			<div class="logo_header" align="center">
+				<h1>AXOTL</h1>
+				<img src="img/Logo.png" alt="Logo AXOTL" width="300" height="150"></img>
+				<div class="oferta1"><img src="img/ofertas.png"  width="400" height="250"></img></div>
+			</div>
+			<div class="rectangulo_header" align="center">
+				<div class="botones_header">
+					<a href="Bienvenida.html">Bienvenida</a>
+					<a href="Nosotros.html">Nosotros</a>
+					<a href="Productos.html">Productos</a>
+					<a href="Contactenos.html">Contactenos</a>
+					<a href="Carrito.html"><img src="img/carrito.png" width="30" style="position:relative; left:100px; top:5px;"></img></a>
+					<a href="index.html" id="cerrarSe" style="position:relative; left:200px;">Cerrar sesión
+						<script type="text/javascript">
+							let si=document.getElementById('cerrarSe');
+							si.addEventListener("click",function(e){
+							  alert("Hata luego!!");
+							});
+						</script>
+					</a>
+				</div>
+			</div>
+		</header>
+			<div id="rectangulo_categoria" align="right">
+				<b><a>Categoria</a></br></br>
+				<a href="Ropa.html">Ropa</a></br></br></br>
+				<a href="Fundas.html">Fundas</a></br></br></br>
+				<a href="Otros.html">Otros</a></b>
+			</div>
+			<div id="rectangulo_cuerpo">
+				<h1 align="center">Ropa</h1>
+				<div class="productos_cuerpo" align="center">
+					<div class="conte_parent" id="cont_parent"></div>
+				</div>
+			</div>
+			<script src="js/ropa.js"></script>
+	</body>
+</html>

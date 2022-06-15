@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>AXOTL</title>
+		<link rel="stylesheet" href="css/estilo.css">
+		<link rel="icon" href="img/Logo.png" type="image/icon type">
+	</head>
+	<body>
+		<header>
+			<div class="logo_header" align="center">
+				<h1>AXOTL</h1>
+				<img src="img/Logo.png" alt="Logo AXOTL" width="300" height="150"></img>
+				<div class="oferta1"><img src="img/ofertas.png"  width="400" height="250"></img></div>
+			</div>
+			<div class="rectangulo_header" align="center">
+				<div class="botones_header">
+					<a href="Bienvenida.html">Bienvenida</a>
+					<a href="Nosotros.html">Nosotros</a>
+					<a href="Productos.html">Productos</a>
+					<a href="Contactenos.html">Contactenos</a>
+					<a href="Carrito.html"><img src="img/carrito.png" width="30" style="position:relative; left:100px; top:5px;"></img></a>
+				</div>
+			</div>
+		</header>
+			<div id="rectangulo_categoria" align="right">
+				<b><a>Categoria</a></br></br>
+				<a href="Ropa.html">Ropa</a></br></br></br>
+				<a href="Funda.html">Fundas</a></br></br></br>
+				<a href="Otros.html">Otros</a></b>
+			</div>
+			<div id="rectangulo_cuerpo">
+				<h1 align="center">Nosotros</h1>
+				<div class="text_Cuerpo">
+					<h4 align="left">Objetivos</h4>
+					<div id="vinetas">
+						<p>
+							•   Generar conciencia del ajolote mediante productos.</br>
+							•	Dedicar el diseño de prendas de vestir únicas referente al ajolote, utilizando la más alta calidad en productos y ofreciendo el mejor servicio.</br>
+							•	Ofrecer variedad de productos de alta calidad teniendo como emblema el ajolote.</br>
+						</p>
+					</div>
+					
+					<h4 align="left">Misión</h4>
+					<p>
+						El ajolote es uno de los animales más antiguos y representativos de nuestro país. Sus características, su importancia cultural y su historia lo hacen único; no podemos dejar que la actividad humana lo desaparezca por eso nuestra misión es hacer conciencia del cuidado y preservación del ajolote mediante productos de alta calidad.
+					</p>
+					
+					<h4 align="left">Visión</h4>
+					<p>
+						Emprender una tienda con la mayor solidez, y ser la empresa número 1 en ventas estatal y nacional.
+					</p>
+					
+					<h4 align="left">Valores</h4>
+					<p>
+						<b>•	Calidad.</b><div id="vinetas">- Realizamos con excelencia nuestro trabajo, dando lo mejor de nosotros mismos.</div>
+						<b>•	Proactividad.</b><div id="vinetas"> - Logramos que las cosas sucedan.</div>
+						<b>•	Integridad.</b><div id="vinetas"> - Nos distinguimos por nuestra honestidad y transparencia en todo lo que hacemos.</div>
+						<b>•	Lealtad.</b><div id="vinetas"> - Correspondemos con nuestro comportamiento a la confianza depositada en nosotros.</div>
+						<b>•	Innovación.</b><div id="vinetas"> -  Es preponderante en nuestras actividades diarias, ofreciendo siempre los mejores productos.</div></br>
+					</p>
+				</div>
+			</div>
+	</body>
+</html>
