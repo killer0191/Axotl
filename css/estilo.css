@@ -1,0 +1,246 @@
+header {
+  display: block;
+}
+body{
+	background: #2980B9;
+	background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);
+	background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inicio{
+	border: 1px solid #1E679A;
+	width: 280px;
+}
+.logo_header{
+	background-color:#F2D7D5;
+	border: 3px solid black;
+	width:1220px;
+	height:250px;
+	margin-top:20px;
+	margin-left:50px;
+	margin-right:50px;
+}
+.rectangulo_header{
+	background-color:#E69DFB;
+	border: 3px solid black;
+	width:1220px;
+	height:auto;
+	margin-top:10px;
+	margin-left:50px;
+	margin-right:50px;
+}
+div#rectangulos{
+	width:1225px;
+	height:2000px;
+	background-color:red;
+	margin-top:10px;
+	margin-left:50px;
+	margin-right:50px;
+	
+}
+div#rectangulo_categoria{
+	background-color:#CCEEFF;
+	border: 3px solid black;
+	width:250px;
+	height:auto;
+	float:top-left;
+	margin-left:50px;
+	margin-top:10px;
+	font-size:30px;
+}
+div#rectangulo_cuerpo{
+	background: #7F7FD5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	border: 3px solid black;
+	width:950px;
+	height:auto;
+	float:right;
+	margin-top:10px;
+	margin-right:50px;
+}
+.botones_header{
+	font-size:30px;
+}
+.text_Cuerpo{
+	font-size:25px;
+	margin-left:25px;
+	margin-right:25px;
+}
+div#vinetas{
+	margin-left:50px;
+	margin-right:50px;
+}
+.imagenes_Productos{
+	
+}
+div#bloque_producto{
+	width:400px;
+	height:auto;
+	border: 3px solid black;
+	background:#B2FFFF;
+}
+.oferta1{
+	position:relative;
+	right:500px;
+	top:-250px;
+}
+.oferta2{
+	position:relative;
+	left:500px;
+	top:-400px;
+}
+.carrito{
+	position:relative;
+	left:500px;
+	top:-30px;
+}
+
+
+
+.conte_parent{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+  
+}
+.conte{
+    height: 510px;
+    width: 350px;
+    box-shadow:0 0 7px #111 ;
+    margin: 30px 30px;
+}
+.conte .card{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+.conte .stromtroper img{
+    height: 330px;
+    width: 300px;
+}
+.conte .stromtroper{
+     background-color: #111;
+}
+.conte .iron-man{
+    background-color: #6A0C0B;
+}
+.conte .spider-man{
+    background-color:#B11313;
+}
+.conte .iron-man img{
+    height: 330px;
+    width: 230px;
+}
+.conte .spider-man img{
+    height: 330px;
+    width: 300px;
+}
+.informacion{
+    height: 80px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: -10px;
+}
+.informacion p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+.precio {
+    height:50px;
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-precio{
+    width: 80px;
+}
+ .precio1{
+    color: red;
+    font-size: .8em;
+}
+.precio .precio2{
+    font-size: 1.5em;
+}
+.shoping{
+    font-size: 1.5em;
+    color: #555;
+}
+
+
+.item {
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.item-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.item-image {
+  height: 300px;
+  width: 100%;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 15px;
+}
+
+.item-details > .item-price {
+  margin: 0;
+}
+.item-price{
+	font-size:25;
+	color:black;
+}
+
+/* ? SHOPPING CART */
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
