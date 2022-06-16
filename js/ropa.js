@@ -4,16 +4,16 @@ const datos_car=[
     title:"Sudadera de ajolote",
 	description:"Sudadera bicolor rosa/verde axolotl ajolote.",
     fecha:" Fecha Salidad:01/3/2021",
-    price_before:"S/345.00",
-    price_now:"S/241.50",
+    price_before:"$345.00",
+    price_now:"$241.50",
   },
   {
     img:"img/img2.jpg",
     title:"Playera de ajolote",
     fecha:" Fecha Salidad:01/3/2021",
 	description:"Camisetas de ajolote con estampado para hombre y mujer, ropa de estilo informal.",
-    price_before:"S/180.00",
-    price_now:"S/126.00",
+    price_before:"$180.00",
+    price_now:"$126.00",
   },
 ]
 
