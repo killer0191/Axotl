@@ -1,11 +1,11 @@
 const datos_car=[
   {
     img:"img/img4.jpg",
-    title:"Funda de ajolote",
-	description:"Diseños personalizados para funda de telefonos sobre ajoletes.",
+    title:"Funda de ajolote hecha en M\xE9xico",
+	description:"Diseños personalizados para funda de tel\xE9fonos sobre ajoletes.",
     fecha:" Fecha Salidad:01/3/2021",
-    price_before:"S/180.00-250.00",
-    price_now:"S/126.00-175.00",
+    price_before:"$180.00",
+    price_now:"$126.00",
   },
 ]
 
